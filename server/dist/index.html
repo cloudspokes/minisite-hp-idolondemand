@@ -1,12 +1,372 @@
-<!doctype html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]--><head><meta charset="utf-8"><title>PRD</title><meta name="description" content=""><meta name="viewport" content="width=device-width"><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><link rel="stylesheet" href="styles/vendor.css"><link rel="stylesheet" href="styles/84e9cf93.main.css"><body ng-app="clientApp"><!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--><!-- Add your site or application content here --><div class="container" ng-view=""></div><!-- Google Analytics: change UA-XXXXX-X to be your site's ID --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>[topcoder] - HP IDOL OnDemand Community</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles-4.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "4091849a-971e-4923-a1ab-3dfefd889c6b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>    
+</head> 
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script><!--[if lt IE 9]>
-    <script src="bower_components/es5-shim/es5-shim.js"></script>
-    <script src="bower_components/json3/lib/json3.min.js"></script>
-    <![endif]--><script src="scripts/45e15f61.vendor.js"></script><script src="scripts/f44746ff.scripts.js"></script>
+<body data-spy="scroll">
+    <!-- ******HEADER****** --> 
+    <header id="top" class="header navbar-fixed-top">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo">
+                    <span class="logo-title">IDOL OnDemand</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#challenges">Challenges</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#challenges">Leaderboard</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a href="http://www.topcoder.com" target="_blank">Register</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->           
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** --> 
+    <section id="promo" class="promo section offset-header has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="overview col-md-8 col-sm-12 col-xs-12">
+                    <h2 class="title">Develop the next generation of innovative apps with HP IDOL OnDemand</h2>
+                    <p style="font-size:16px">Tap into the explosive growth of human information to build next-generation, insights-driven apps using IDOL OnDemand. With IDOL OnDemand, we’re bringing the power of HP IDOL (Intelligent Data Operating Layer), one of the world’s most capable human information processing engines, to the cloud.</p>
+                    <p style="font-size:16px; padding-bottom:20px">Compete in [topcoder] challenges to accelerate time-to-innovation by using IDOL OnDemand web service APIs in your apps to help you engage with human information, including text, images, social media and app data. Fully inquire, investigate, interact with and improve human information to pioneer a new generation of ground-breaking consumer and enterprise apps today.</p>
+                    <ul class="summary">
+                        <li>Compete in development challenges for cash & prizes</li>
+                        <li>Get up to speed on the latest technology</li>
+                        <li>Demonstrate profecieny in HP technologies</li>
+                        <li>Enhance your [topcoder] profile with HP badges</li>
+                    </ul>
+                </div><!--//overview-->
+                
+                <!--// iPhone starts -->
+                <div class="phone iphone iphone-black col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="iphone-holder phone-holder">
+                        <div class="iphone-holder-inner">
+                            <div class="slider flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="assets/images/iphone/iphone-slide-1.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/iphone/iphone-slide-2.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/iphone/iphone-slide-3.png"  alt="" />
+                                    </li>
+                                </ul><!--//slides-->
+                            </div><!--//flexslider-->   
+                        </div><!--//iphone-holder-inner-->                    
+                    </div><!--//iphone-holder-->                   
+                </div><!--//iphone-->  
+                <!--// iPhone ends -->
+                
+                <!--// Android starts -->                
+                <div class="phone android col-md-4 col-sm-12 col-xs-12" style="display:none">
+                    <div class="android-holder phone-holder">
+                        <div class="android-holder-inner">
+                            <div class="slider flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="assets/images/android/android-slide-1.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/android/android-slide-2.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/android/android-slide-3.png"  alt="" />
+                                    </li>
+                                </ul><!--//slides-->
+                            </div><!--//flexslider-->   
+                        </div><!--//phone-holder-inner-->                    
+                    </div><!--//iphone-holder-->                   
+                </div><!--//iphone--> 
+                <!--// Android ends -->
+                
+                <!--// iPad starts -->
+                <div class="ipad ipad-black col-md-4 col-sm-12 col-xs-12 col-md-pull-1" style="display:none">
+                    <div class="ipad-holder">
+                        <div class="ipad-holder-inner">
+                            <div class="slider flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="assets/images/ipad/ipad-slide-1.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/ipad/ipad-slide-2.png"  alt="" />
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/ipad/ipad-slide-3.png"  alt="" />
+                                    </li>
+                                </ul><!--//slides-->
+                            </div><!--//flexslider-->   
+                        </div><!--//ipad-holder-inner-->                    
+                    </div><!--//ipad-holder-->                   
+                </div><!--//ipad--> 
+                <!--// iPad ends -->  
+                                           
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//promo-->
+    
+    <!-- ******FEATURES****** --> 
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center sr-only">Features</h2>
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-cloud-upload"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Sentiment Analysis</h3>
+                        <p>Return the positive or negative sentiments of any document or web content, including tweets, news articles, blog posts, product reviews, comments and more.</p>  
+                    </div><!--//content-->               
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-rocket"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Entity Extraction</h3>
+                        <p>Extracts entities (words, phrases, or blocks of information) from your input text.</p>   
+                    </div><!--//content-->               
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-users"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Image Analysis</h3>
+                        <p>Analyze images using face detection and image identification. Use image to text to make text accessible and searchable or embed a barcode reader to enrich the functionality of your app.</p>   
+                    </div><!--//content-->               
+                </div><!--//item-->
+            </div><!--//row-->
+            
+            <div class="row">
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-calendar"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Format Conversion</h3>
+                        <p>Extract text from a wide range of file types. Convert 500+ file formats to HTML for high fidelity native browser rendering.</p>  
+                    </div><!--//content-->               
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-comments"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Text Analysis</h3>
+                        <p>Extract, highlight and expand text and metadata, entities, and keywords to automatically discover, organize and classify unstructured information.</p>   
+                    </div><!--//content-->               
+                </div><!--//item-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="icon">
+                        <i class="fa fa-globe"></i>                
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Search</h3>
+                        <p>Search unstructured information. Extract and highlight keywords.</p>   
+                    </div><!--//content-->               
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//features-->
+    
+    <!-- ******STORY****** --> 
+    <section id="challenges" class="story section has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-7 col-sm-7 col-xs-12">
+                    <h2 class="title">[topcoder] Challenges & Leaders</h2>
+                    <p>[topcoder] is the world’s largest platform for digital open innovation. We provide the platform and community of over 600,000 global members to accelerate the development of new digital products and services for our clients.</p>
+                    <table class="table">
+                    <tr>
+                        <th>Challenge</th>
+                        <th>Submissions Due</th>
+                        <th nowrap>Top Prize</th>
+                    </tr>
+                    <tr>
+                        <td>Apply Appointment Features in Daily Tracker Page</td>
+                        <td>Tue May 06 2014 12:58:00 GMT+0000 (UTC)</td>
+                        <td>$1250</td>
+                    </tr>
+                    <tr>
+                        <td>Dynamic Curves Text For Tracker Title</td>
+                        <td>Fri May 16 2014 10:00:00 GMT+0000 (UTC) </td>
+                        <td>$1000</td>
+                    </tr>
+                    <tr>
+                        <td>Funktional - Badge Rewards Storyboard Design </td>
+                        <td>Thu Apr 24 2014 17:44:00 GMT+0000 (UTC) </td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Meli Implement Spaces APIs - Salesforce Challenge</td>
+                        <td>Mon May 19 2014 18:00:00 GMT+0000 (UTC)</td>
+                        <td>$1000</td>
+                    </tr>                    
+                    </table>
+                    <div style="padding-top:50px">
+                    <img src="http://www.topcoder.com/asteroids/wp-content/themes/asteroids_microsite/i/tcLogoSmall.png">
+                    </div>
+                </div><!--//content-->
+                <div class="team col-md-4 col-sm-4 col-md-offset-1 col-sm-offset-1 col-xs-12">
+                    <div class="row">
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/mahestro.jpeg" alt="" />
+                            <p class="name">mahestro</p>
+                            <p class="title">1st with 1025 pts</p>
+                        </div><!--//member-->
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/CoralBlue.jpeg" alt="" />
+                            <p class="name">CoralBlue</p>
+                            <p class="title">2nd with 1000 pts</p>
+                        </div><!--//member-->
+                    </div>
+
+                    <div class="row">
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/jeffdonthemic.jpeg" alt="" />
+                            <p class="name">jeffdonthemic</p>
+                            <p class="title">3rd with 900 pts</p>
+                        </div><!--//member-->
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/Ssmoimo_big.jpg" alt="" />
+                            <p class="name">ssmoimo</p>
+                            <p class="title">4th with 850 pts</p>
+                        </div><!--//member-->
+                    </div>
+
+                    <div class="row">
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/Nickolas.jpeg" alt="" />
+                            <p class="name">Nickolas</p>
+                            <p class="title">5th with 750 pts</p>
+                        </div><!--//member-->
+                        <div class="member col-md-6 text-center">
+                            <img class="img-circle" src="http://community.topcoder.com/i/m/Psyho_big.jpg" alt="" />
+                            <p class="name">Psyho</p>
+                            <p class="title">6th with 725 pts</p>
+                        </div><!--//member-->
+                    </div>
+
+                </div><!--//team-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//story-->
+
+    <!-- ******FAQ****** --> 
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">Frequently Asked Questions</h2>
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I  ipsum dolor sit amet?</h3>
+                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What is the ipsum dolor sit amet quam tortor?</h3>
+                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What's the differences between ipsum and dolor sit amet?</h3>
+                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est.</p>
+                    </div><!--//item-->
+                </div><!--//faq-col-->
+                <div class="faq-col col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>How does the morbi quam tortor work?</h3>
+                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>Can I ipsum dolor sit amet nascetur ridiculus?</h3>
+                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I proin scelerisque magna?</h3>
+                        <p class="answer">Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. </p>
+                    </div><!--//item-->
+                </div><!--//faq-col-->
+            </div><!--//row-->
+            <div class="more text-left">
+                <div class="row">
+                  <div class="col-md-8"><img src="http://www.topcoder.com/asteroids/wp-content/themes/asteroids_microsite/i/tcLogoSmall.png"></div>
+                  <div class="col-md-4">
+                        <span class='st_facebook_large' displayText='Facebook'></span>
+                        <span class='st_googleplus_large' displayText='Google +'></span>
+                        <span class='st_twitter_large' displayText='Tweet'></span>
+                        <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                        <span class='st_pinterest_large' displayText='Pinterest'></span>                      
+                  </div>              
+                </div>
+            </div>
+        </div><!--//container-->
+    </section><!--//faq-->    
+      
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container">
+            <small class="copyright pull-left">Copyright &copy; 2014 Appirio</small>
+        </div>
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/detectmobilebrowser.js"></script>      
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!--[if !IE]>--> 
+    <script type="text/javascript" src="assets/js/animations.js"></script> 
+    <!--<![endif]-->         
+</body>
+</html> 
+
